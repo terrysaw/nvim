@@ -49,4 +49,6 @@ vim.lsp.config("lua_ls", {
 })
 
 
+--- Packages (Arch):
+--- clang lua_language_server cmake_language_server
 vim.lsp.enable({'lua_ls', 'clangd', 'cmake' })
