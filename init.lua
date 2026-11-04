@@ -74,6 +74,7 @@ vim.lsp.enable({
     "clangd", 
     "cmake",
     "bashls",
+    "gdscript",
 })
 
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
