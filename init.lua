@@ -68,13 +68,15 @@ vim.lsp.config("lua_ls", {
 })
 
 --- Packages (Arch):
---- lua_language_server clang cmake_language_server bash_language_server
+--- lua-language-server clang cmake-language-server bash-language-server jdtls vscode-json-languageserver
 vim.lsp.enable({
     "lua_ls", 
     "clangd", 
     "cmake",
     "bashls",
     "gdscript",
+    "jdtls",
+    "jsonls",
 })
 
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
